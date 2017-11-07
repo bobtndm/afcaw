@@ -74,8 +74,6 @@ helpMessage =""" BOBBOT PROTECT
 KAC=["uf43eb623c4b246c45690bf19e048af05","uf41eeac6f34ebb531b1acba159203dea"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
 
 Bots=["uf43eb623c4b246c45690bf19e048af05","uf41eeac6f34ebb531b1acba159203dea"]
 admin=["u0e495c4debaa244e5f61f4e090950f75"]
