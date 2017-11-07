@@ -14,12 +14,12 @@ ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE()
-ki.login(qr=True)
-ki.loginResult()
+kk.login(qr=True)
+kk.loginResult()
 
 kc = LINETCR.LINE()
-ki.login(qr=True)
-ki.loginResult()
+kc.login(qr=True)
+kc.loginResult()
 
 print "login success"
 reload(sys)
@@ -79,7 +79,7 @@ helpMessage =""" BOBBOT PROTECT
 [Bot cancel]
 [Title:]
 """
-KAC=["uf43eb623c4b246c45690bf19e048af05","uf41eeac6f34ebb531b1acba159203dea",kc,"u0e495c4debaa244e5f61f4e090950f75"]
+KAC=["uf43eb623c4b246c45690bf19e048af05","uf41eeac6f34ebb531b1acba159203dea",kk,"u0e495c4debaa244e5f61f4e090950f75"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
