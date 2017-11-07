@@ -69,7 +69,7 @@ helpMessage =""" BOBBOT PROTECT
 [Bot cancel]
 [Title:]
 """
-KAC=[cl,ki,kk,kc]
+KAC=["uf43eb623c4b246c45690bf19e048af05","uf41eeac6f34ebb531b1acba159203dea"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -732,7 +732,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     kk.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kk.sendText(msg.to,"Done Chivas")
+                        kk.sendText(msg.to,"Done BOTBOB")
                     else:
                         kk.sendText(msg.to,"already close")
                 else:
@@ -1652,9 +1652,9 @@ def bot(op):
                 kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
 #-----------------------------------------------
             elif msg.text in ["Respon","respon"]:
-                ki.sendText(msg.to,"Cv1")
-                kk.sendText(msg.to,"Cv2")
-                kc.sendText(msg.to,"Cv3")
+                ki.sendText(msg.to,"HADIR BOT1")
+                kk.sendText(msg.to,"HADIR BOT2")
+                kc.sendText(msg.to,"HADIR BOT3")
 #-----------------------------------------------
 
             elif msg.text in ["Sp","Speed","speed"]:
